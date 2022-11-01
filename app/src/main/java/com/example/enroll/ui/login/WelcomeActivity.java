@@ -36,11 +36,7 @@ public class WelcomeActivity extends AppCompatActivity {
 
         con = (Button) findViewById(R.id.con);
 
-//        Intent i = getIntent();
-//        Bundle values = i.getExtras();
-//        String user = i.getStringExtra("KEY1");
-//        //line that causes error
-//        //String account_type = values.getString("KEY2");
+
 
         TextView t = (TextView) findViewById(R.id.welcome);
         t.setText("Welcome " + name + "!, you are logged in as " + account_type );
